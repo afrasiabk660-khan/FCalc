@@ -33,7 +33,7 @@ def calculate_final_amount(
 
 # ------------------ Streamlit UI ------------------
 st.set_page_config(page_title="Investment Calculator", layout="centered")
-st.title("📈 Investment Calculator")
+st.title("🐦‍🔥 Investment Calculator")
 
 principal = st.number_input(
     "Initial Investment Amount", min_value=0.0, value=1000.0, step=100.0, format="%.2f"
@@ -56,6 +56,7 @@ if st.button("Calculate"):
 
 
 # In[ ]:
+
 
 
 
